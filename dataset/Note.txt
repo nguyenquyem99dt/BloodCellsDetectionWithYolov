@@ -1,0 +1,5 @@
+-Copy các ảnh trong thư mục valid của dataset gốc sang thư mục train.
+-Copy nội dung file _annotations.txt valid sang train.
+-Mục đích:
+	+ Vì yolov3-keras sử dụng tham số val_split để chia data.
+ 	+ Ta chia tương tự khi làm với yolov4-pytorch để tiện so sánh. 
